@@ -60,7 +60,7 @@ export const AuroraHero = () => {
           }}
           className="group relative flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50"
         >
-          <Link href="https://drive.google.com/file/d/1xe6HcnVXeJQag0-BoPtdT1bVpm7ix6Jp/view?usp=sharing" target="_blank" >RESUME</Link>
+          <Link href="https://drive.google.com/file/d/19Qh0nP315a5LVLMV7WNa0WnvBMiSdX_7/view?usp=sharing" target="_blank" >RESUME</Link>
           <FiArrowRight className="transition-transform group-hover:-rotate-45 group-active:-rotate-12" />
         </motion.button>
       </div>
