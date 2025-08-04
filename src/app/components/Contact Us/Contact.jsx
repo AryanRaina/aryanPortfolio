@@ -37,7 +37,7 @@ export const Contact = () => {
       </motion.div>
       <Footer />
       <div className="footer-heading absolute bottom-0 w-full text-center">
-        Copyright @ 2025 Aryan Raina Portfolio | All rights reserved
+        Copyright @ 2025 Aryan Raina | All rights reserved
       </div>
     </div>
 
