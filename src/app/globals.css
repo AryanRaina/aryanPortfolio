@@ -138,7 +138,10 @@ html {
   background-color: red;
 }
 .github {
-  background-color: rgb(161, 15, 83);
+  background-color: #0d1117;
+}
+.leetcode {
+  background-color: #ffa116;
 }
 .linkedin {
   background-color: rgb(52, 52, 226);

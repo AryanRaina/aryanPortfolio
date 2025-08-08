@@ -5,7 +5,7 @@ import { Canvas } from "@react-three/fiber";
 import { motion } from "framer-motion";
 import { twMerge } from "tailwind-merge";
 import { FiArrowRight, FiMapPin, FiMail } from "react-icons/fi";
-import { SiGithub, SiTwitter, SiYoutube } from "react-icons/si";
+import { SiGithub, SiLeetcode, SiTwitter, SiYoutube } from "react-icons/si";
 import Link from "next/link";
 import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
@@ -85,7 +85,7 @@ const HeaderBlock = () => (
       </span>
     </h1>
     <Link
-      href="https://www.linkedin.com/in/aryan-raina-8a00aa235/"
+      href="https://www.linkedin.com/in/aryanraina1/"
       target="_blank"
       className="flex items-center gap-1 text-red-300 hover:underline"
     >
@@ -97,18 +97,18 @@ const HeaderBlock = () => (
 const SocialsBlock = () => (
   <>
     <Block
-      className="github col-span-6 bg-green-600 md:col-span-3"
+      className="leetcode col-span-6 bg-green-600 md:col-span-3"
       whileHover={{
         rotate: "-2.5deg",
         scale: 1.1,
       }}
     >
       <Link
-        href="https://www.instagram.com/aryanraina2004/"
+        href="https://leetcode.com/u/AryanRaina/"
         target="_blank"
         className="grid h-full place-content-center text-3xl text-white"
       >
-        <FaInstagram />
+        <SiLeetcode />
       </Link>
     </Block>
     <Block
@@ -123,11 +123,13 @@ const SocialsBlock = () => (
         target="_blank"
         className="grid h-full place-content-center text-3xl text-white"
       >
-        <SiTwitter />
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-twitter-x" viewBox="0 0 16 16">
+          <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+        </svg>
       </Link>
     </Block>
     <Block
-      className="twitter col-span-6 bg-blue-500 md:col-span-3"
+      className="github col-span-6 bg-blue-500 md:col-span-3"
       whileHover={{
         rotate: "2.5deg",
         scale: 1.1,
@@ -149,7 +151,7 @@ const SocialsBlock = () => (
       }}
     >
       <Link
-        href="https://www.linkedin.com/in/aryan-raina-8a00aa235/"
+        href="https://www.linkedin.com/in/aryanraina1/"
         target="_blank"
         className="grid h-full place-content-center text-3xl text-black"
       >
@@ -193,7 +195,7 @@ const Footer = () => {
     <footer className="relative z-10 mt-12">
       <p className="text-center text-zinc-400">
         Made with ❤️ by{" "}
-        <Link href="https://www.linkedin.com/in/aryan-raina-8a00aa235/" className="text-red-300 hover:underline">
+        <Link href="https://www.linkedin.com/in/aryanraina1/" target="_blank" className="text-red-300 hover:underline">
           Aryan Raina
         </Link>
       </p>
