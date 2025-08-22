@@ -27,52 +27,52 @@ const Skill = () => {
         {/* <BubbleText /> */}
         {/* <DivOrigami /> */}
         <div>
-          <FaHtml5 className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <FaHtml5 className="bg-opacity-0 text-white h-[150px] w-[150px]" title="HTML"/>
         </div>
         <div>
-          <IoLogoJavascript className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <IoLogoJavascript className="bg-opacity-0 text-white h-[150px] w-[150px]" title="JavaScript"/>
         </div>
         <div>
-          <FaReact className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <FaReact className="bg-opacity-0 text-white h-[150px] w-[150px]" title="React"/>
         </div>
         <div>
-          <RiTailwindCssFill className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <RiTailwindCssFill className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Tailwind CSS"/>
         </div>
         <div>
-          <DiJava className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <DiJava className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Java"/>
         </div>
         <div>
-          <SiMysql className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <SiMysql className="bg-opacity-0 text-white h-[150px] w-[150px]" title="MySQL"/>
         </div>
         <div>
-          <FaCloud className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <FaCloud className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Cloud Computing"/>
         </div>
         <div>
-          <FaAws className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <FaAws className="bg-opacity-0 text-white h-[150px] w-[150px]" title="AWS"/>
         </div>
         <div>
-          <FaPython className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <FaPython className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Python"/>
         </div>
         <div>
-          <FaCss3 className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <FaCss3 className="bg-opacity-0 text-white h-[150px] w-[150px]" title="CSS"/>
         </div>
         <div>
-          <FaCode className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <FaCode className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Coding"/>
         </div>
         <div>
-          <DiGit className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <DiGit className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Git"/>
         </div>
         <div>
-          <FaGithub className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <FaGithub className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Github"/>
         </div>
         <div>
-          <FaDocker className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <FaDocker className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Docker"/>
         </div>
         <div>
-          <SiKubernetes className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <SiKubernetes className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Kubernetes"/>
         </div>
         <div>
-          <FaLinux className="bg-opacity-0 text-white h-[150px] w-[150px]"/>
+          <FaLinux className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Linux"/>
         </div>
       </div>
       {/* <Example /> */}
