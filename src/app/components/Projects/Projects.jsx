@@ -8,7 +8,7 @@ const Projects = () => {
   const data = [
     {
       image: "/boy_down_1.png",
-      link: "https://drive.google.com/drive/folders/1XRbJp6cFm1jmmHgsl9CTYT6Ql6dHhfpj",
+      link: "https://github.com/AryanRaina/2D-Adventure",
       name: "Adventure 2D",
       para: "Developed a 2D adventure game in Java using the Swing library, featuring tile-based navigation, item collection, and enemy encounters. Built custom GUI elements like menus, health bars, and dialog boxes, with smooth controls and pixel-art-style visuals. Implemented modular game logic for collision detection, level transitions, and scalable gameplay mechanics."
     },
