@@ -13,7 +13,7 @@ import { FaAws, FaCloud, FaCode, FaCss3, FaDocker, FaGit, FaGithub, FaHtml5, FaJ
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiJavaFill, RiTailwindCssFill } from "react-icons/ri";
 import { DiGit, DiJava, DiMysql } from "react-icons/di";
-import { SiDocker, SiKubernetes, SiLinuxserver, SiMysql } from "react-icons/si";
+import { SiDocker, SiGrafana, SiKubernetes, SiLinuxserver, SiMysql, SiNextdotjs } from "react-icons/si";
 
 const Skill = () => {
   return (
@@ -33,7 +33,7 @@ const Skill = () => {
           <IoLogoJavascript className="bg-opacity-0 text-white h-[150px] w-[150px]" title="JavaScript"/>
         </div>
         <div>
-          <FaReact className="bg-opacity-0 text-white h-[150px] w-[150px]" title="React"/>
+          <SiNextdotjs className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Next.js"/>
         </div>
         <div>
           <RiTailwindCssFill className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Tailwind CSS"/>
@@ -57,7 +57,7 @@ const Skill = () => {
           <FaCss3 className="bg-opacity-0 text-white h-[150px] w-[150px]" title="CSS"/>
         </div>
         <div>
-          <FaCode className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Coding"/>
+          <SiGrafana className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Grafana"/>
         </div>
         <div>
           <DiGit className="bg-opacity-0 text-white h-[150px] w-[150px]" title="Git"/>
