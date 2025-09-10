@@ -14,7 +14,7 @@ const Projects = () => {
     },
     {
       image: "https://storage.googleapis.com/homes28images/properties/sample/landingPage/ChatGPT_Image_Aug_27__2025__03_00_22_PM-removebg-preview3.png",
-      link: "https://vanshs2022.github.io/Homes28/",
+      link: "https://homes28-403875145211.asia-south1.run.app/",
       name: "Homes 28",
       para: "Built Homes28, a property listing platform for buying, selling, and renting real estate using Next.js. Developed listing forms, search filters, and contact features with a responsive UI. Enabled smooth property uploads with images and descriptions. Focused on clear navigation, intuitive layout, and a straightforward listing-to-contact experience."
     },
